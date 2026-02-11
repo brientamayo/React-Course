@@ -1,9 +1,16 @@
-
+import ExampleThree from "./ExampleThree"
+import ToDoList from "./ToDoList"
+import Profile from "./Profile"
+import ShoppingList from "./ShoppingList"
 function App() {
 
-
   return (
-    <p className="font-bold text-white bg-emerald-500">Hello World</p>
+    <div>
+      <ToDoList />
+      <Profile />
+      <ShoppingList />
+    </div>
+
   )
 }
 
