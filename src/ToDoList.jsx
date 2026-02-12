@@ -40,7 +40,7 @@ const ToDoList = () => {
 				{tasks.length === 0 && <li className='text-slate-500'>No added tasks yet</li>}
 				{tasks.map((task, index) => (
 					<li key={index}>
-					{task} 
+					{index + 1}. {task} 
 					<button 
 						className='p-1 text-white rounded-md bg-red-500 hover:bg-red-600 cursor-pointer'
 						onClick={() => handleDeleteTask(index)}>X

@@ -1,14 +1,9 @@
-import ExampleThree from "./ExampleThree"
-import ToDoList from "./ToDoList"
-import Profile from "./Profile"
-import ShoppingList from "./ShoppingList"
+import Switch from "./Switch"
 function App() {
 
   return (
     <div>
-      <ToDoList />
-      <Profile />
-      <ShoppingList />
+      <Switch/>
     </div>
 
   )
