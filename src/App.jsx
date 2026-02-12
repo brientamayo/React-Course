@@ -1,9 +1,9 @@
-import FetchData from "./FetchData"
+import CounterEffect from "./CounterEffect"
 function App() {
 
   return (
     <div>
-      <FetchData/>
+      <CounterEffect/>
     </div>
 
   )
