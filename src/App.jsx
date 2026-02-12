@@ -1,9 +1,9 @@
-import Switch from "./Switch"
+import FetchData from "./FetchData"
 function App() {
 
   return (
     <div>
-      <Switch/>
+      <FetchData/>
     </div>
 
   )
