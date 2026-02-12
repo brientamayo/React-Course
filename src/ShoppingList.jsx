@@ -10,7 +10,8 @@ const ShoppingList = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault(e);
-    const newItem = { name, quantity };
+    if(!name || !quantity) return;
+    const newItem = { name, quantity:parseInt(quantity) };
     setItems([...items, newItem]);
     setName("");
     setQuantity(0);
