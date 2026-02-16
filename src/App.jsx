@@ -1,14 +1,10 @@
-import UserProfile from "./UserProfile"
-import {UserProvider} from './UserContext'
-import UpdateUser from "./UpdateUser"
+import Counter from "./Counter"
 function App() {
 
   return (
     <div>
-      <UserProvider>
-        <UserProfile/>
-        <UpdateUser/>
-      </UserProvider>
+      <h1>React userReducer Example</h1>
+      <Counter/>
     </div>
 
   )
