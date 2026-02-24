@@ -1,10 +1,11 @@
-import Counter from "./Counter"
+import FocusInput from "./FocusInput"
+import Timer from "./Timer"
 function App() {
 
   return (
     <div>
-      <h1>React userReducer Example</h1>
-      <Counter/>
+      <FocusInput/>
+      <Timer/>
     </div>
 
   )
